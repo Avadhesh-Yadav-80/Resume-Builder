@@ -1,0 +1,126 @@
+body{
+    background-image: url('loginpagebackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;    
+    height: 100%;
+    align-items:center;
+    justify-content:center;
+}
+
+.container{    
+    margin:5% 34%;
+    padding: 0%;
+    align-items:center;
+    justify-content:center;
+    width: 30%;
+    height: 60%;   
+
+}
+.fhidden{
+    display: none;
+}
+.form h1{
+    color: #d6e5b9;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-decoration: underline;
+    text-align: center;
+    justify-content: center;
+    padding: 0%;
+    margin-top: 2%;
+    font-size: 3rem;
+}
+.form_inputs_group{
+    margin-top: 1rem;
+    
+}
+.form_input{    
+    font-family: 'Baloo Bhai 2', cursive;
+    display: block;
+    width: 100%;
+    height: 83%;
+    box-sizing: border-box;
+    padding: .60rem;
+    background: none;
+    border:none;
+    font-size: 1.3rem;
+    border-bottom: 3px solid rgb(3 3 53);
+    color: rgb(68, 0, 255);
+    font-weight: bold;
+    
+}
+.form_message_error{
+    color: rgb(173 0 0);
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.formbutton {
+    width: 100%;
+    margin-top: 3rem; 
+    padding:1rem 2rem;
+    font-weight: bold;
+    outline: none;
+    cursor:pointer;
+    background: #00fff2;
+    font-size: 1.3rem;
+    border-radius: 13px;    
+}
+.formbutton a{
+    text-decoration: none;
+}
+.formbutton:hover{
+      background:#7dceca;
+  }
+  .formbutton:active{
+      transform: scale(0.98);
+  }
+  .form_text{
+    text-align: center;    
+  }
+  .form_link{
+      color: rgb(255, 255, 255);
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  .form_link:hover{
+      text-decoration: underline;
+      color:rgb(182 255 255);
+  }
+
+.left{
+    margin-left: 0px;
+    display: inline-block;       
+    position: absolute ;
+    
+}
+
+.left img{
+    width: 140px;
+    height: 70px;
+
+}
+.middle{
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(222 201 82);
+    text-decoration: underline;
+}
+.right{
+    margin: 14px;
+    position: absolute ;
+    right:30px;
+    top: 20px;
+    font-size: 1.5rem;
+    
+}
+.Right{
+    color: mistyrose;
+    text-decoration: none;    
+}
+.Right:hover{
+    cursor: pointer;
+    color:skyblue;
+    text-decoration: underline;
+}

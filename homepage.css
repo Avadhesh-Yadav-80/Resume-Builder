@@ -1,0 +1,113 @@
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    height: 100%;
+    background-color: burlywood;
+    
+}
+.left{
+   display: inline-block;       
+   position: absolute ;
+   left: 40px;
+   top: 30px;
+}
+.left img{
+    width: 150px;
+   height: 80px;
+
+}
+.right{            
+   text-align: center;
+   display: inline-block;
+   position: absolute;
+   right: 80px;
+   top: 55px;
+   height: 40px;
+   width: 160px;
+   font-weight: bold;
+   font-size: 15px;
+   border-radius: 10px;
+   background-color: rgb(39, 196, 149);
+}   
+.right a{
+    text-decoration: none;
+}
+.info h1{
+   display: inline-block;
+   margin-top: 170px;
+   margin-left: 90px;
+   font-size: 3.5rem;       
+}
+.para{
+   display: inline-block;
+   font-size: 25px;       
+   margin-top: 30px;
+   margin-left: 90px;       
+}
+.img{      
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 185px;             
+}
+.bmr{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bolder;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+    margin-left:300px;
+}
+.bmr:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+    color: black;
+    font-weight: bolder;
+}
+.help {
+    background-color: rgb(0, 246, 255);
+    font-size: 26px;
+    text-align: center;
+    margin-top: 300px;      
+    position: absolute; 
+    height :700px;       
+}
+.step{
+   font-size: 30px;
+   display: flex;
+   text-align: center;
+}
+.rec{
+font-size: 30px;
+text-align: center;
+}
+.bmr2{
+   display: block;
+   position: absolute; 
+   margin-top: 90px;
+   margin-left:650px;
+   text-align: center;
+   height: 50px; 
+   width: 200px; 
+   font-weight: bold;
+   font-size: 19px;
+   border-radius: 15px;
+   background-color: rgb(39, 196, 149); 
+}
+.bmr2 a{
+    text-decoration: none;
+}
+.footer{
+    border: .1px solid black;
+    margin-top: 80%;
+    margin-bottom: 0%;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: black;
+}
